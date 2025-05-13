@@ -36,3 +36,45 @@ TorchVision transforms
 
 PIL for image preprocessing
 
+▶️ How to Run
+Clone the repository and install dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Download and place the following models in correct paths:
+
+Violence model → modelnew.h5
+
+Gender classifier → gender_classifier.pth
+
+Update your email credentials in the script.
+
+To start detection, run:
+
+bash
+Copy
+Edit
+python violence_detection.py
+💡 Tip: If using DroidCam, make sure to use the correct camera index (e.g., cv2.VideoCapture(3)).
+
+🖥️ Output Overview
+Bounding boxes labeled MALE/FEMALE
+
+On-screen alerts:
+
+⚠️ VIOLENCE DETECTED
+
+⚠️ HARASSMENT DETECTED
+
+🚨 DANGER 🚨 (for repeated incidents)
+
+Frame is saved and emailed during detection
+
+📧 Email Alert
+Subject: ⚠️ Violence Detected Alert
+
+Body: Includes brief info and attached frame snapshot
+
+Sent to configured recipient
