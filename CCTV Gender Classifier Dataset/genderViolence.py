@@ -29,9 +29,9 @@ os.makedirs(VIOLENCE_FRAMES_DIR, exist_ok=True)
 
 # === Email Settings ===
 
-EMAIL_ADDRESS = "hariramsundaram@gmail.com"
-EMAIL_PASSWORD = "jywr idqd spma mumu"  # Use App Password
-TO_EMAIL = "hariram12003@gmail.com"
+EMAIL_ADDRESS = "Your gmail address"
+EMAIL_PASSWORD = "password"  # Use App Password
+TO_EMAIL = "sender gmail address"
 
 def send_email_alert(image_path):
     try:
