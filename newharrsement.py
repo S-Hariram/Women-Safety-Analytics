@@ -23,9 +23,9 @@ HARASSMENT_MODEL_PATH = r"C:\sheild-master\model\keras_model.h5"
 HARASSMENT_LABELS_PATH = r"C:\sheild-master\model\labels.txt"
 VIOLENCE_MODEL_PATH = r"C:\Real-Time-Violence-Detection-main\Violence Detection\modelnew.h5"
 
-EMAIL_ADDRESS = "hariramsundaram@gmail.com"
+EMAIL_ADDRESS = "yours@gmail.com"
 EMAIL_PASSWORD = "your_app_password_here"  # Use App Password
-TO_EMAIL = "hariram12003@gmail.com"
+TO_EMAIL = "sender@gmail.com"
 
 DETECTION_FRAMES_DIR = "detection_frames"
 os.makedirs(DETECTION_FRAMES_DIR, exist_ok=True)
